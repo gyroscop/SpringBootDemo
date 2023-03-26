@@ -1,0 +1,21 @@
+Making Multiple Profiles and Changing Debug level
+
+
+logging level (with descending priority) :
+trace
+debug
+info
+warning 
+error
+off
+
+
+
+1. Development Profile (dev)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+logging.level.org.springframework=trace
+
+
+2. Production Profile (prod)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+logging.level.org.springframework=info
